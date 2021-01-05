@@ -1,0 +1,334 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 92%;
+  max-width: 969px;
+  margin: 0 auto;
+  padding: 3.5em 0;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.subtitle {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.subtitle .elipses {
+  display: flex;
+  width: 12px;
+  justify-content: space-between;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.subtitle .elipse1 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+.subtitle .elipse2 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+.subtitle .elipse3 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+.subtitle .elipse4 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+.subtitle .elipse5 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+.subtitle .elipse6 {
+  width: 5px;
+  height: 5px;
+  background: rgb(196, 196, 196);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.subtitle .psubtitle {
+  width: 100%;
+}
+
+.subtitle .psubtitle p {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+
+.picture {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1366px) {
+    .statistics {
+      background: #ffffff;
+      width: 250px;
+      height: 320px;
+      padding: 3em 4em;
+      margin: 0;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      float: right;
+  }
+}
+
+.statistics {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+@media (min-width: 1366px){
+  .statistics--second-row {
+      display: block;
+      margin: 0;
+  }
+}
+
+@media (max-width: 1366px){
+  .statistics--second--row{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media (min-width: 1366px) {
+  .stats {
+    margin-bottom: 4.5em;
+  }
+}
+
+.statistics .stats {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1366px){
+  .stats {
+      margin-bottom: 2.5em;
+  }
+
+}
+
+.statistics .stats .stat_titleandvalue {
+  display: block;
+}
+
+.statistics .stats .stat_title {
+  margin-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+}
+
+.statistics .stats .stat_value-highlight {
+  margin-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #F2994A;
+}
+
+.statistics .stats .stat_value {
+  margin-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.ingredientsSection .ingrdientsTitle {
+	font-family: 'Playfair Display';
+	font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.ingredientsSection .ingredientsSubtitle {
+	font-family: 'Playfair Display';
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	margin: 1.5em 0;
+}
+
+.ingredientsSection {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.ingredientsSection .ingredients-container {
+  margin-bottom: 5em;
+}
+
+.ingredientsSection .ingredients-container p {
+  width: 80%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.ingredientsSection .ingredients {
+	margin-bottom: 1em;
+	font-size: 1.4rem;
+  display: flex;
+}
+
+.ingredientsSection .ingredients input {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.instructionSection {
+  width: 100%;
+  margin-top: -25px;
+}
+
+.instructionSection .instructionTitle {
+	font-family: 'Playfair Display';
+	font-size: 24px;
+	margin-bottom: 1em;
+}
+
+.instructionSection .instructionsList .instructionsList-items {
+  padding-bottom: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 2.5rem;
+  width: 65%;
+}
+
+.instructionSection .instructionsList .instructionsList-items .number {
+  font-size: 1.6rem;
+  width: 36px;
+  height: 36px;
+  background: rgb(242, 153, 74);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.instructionSection .instructionsList .instructionsList-items p {
+    width: 85%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 40px;
+}
+
+@media (max-width: 1366px) {
+  .instructionSection .instructionsList .instructionsList-items {
+    padding-bottom: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    width: 100%;
+  }
+  .instructionSection .instructionsList .instructionsList-items p {
+    margin-left: 20px;
+  }
+}
+
+.instructionSection .sourceParraf {
+  font-family: 'Montserrat';
+  color: rgb(189, 189, 189);
+}
+
+.instructionSection .sourceParraf a {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+
+.instructionSection .sourceParraf a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(189, 189, 189);
+}
+
+footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer .attribution {
+  font-family: 'Montserrat';
+  color: rgb(189, 189, 189);
+}
+footer .attribution-link {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+footer .attribution-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+

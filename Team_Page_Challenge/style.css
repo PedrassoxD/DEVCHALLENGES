@@ -2,12 +2,21 @@
 /* Titles and Description */
 
 .container {
-    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
+    width: 100%; */
 }
+
+section {
+    width: 72.5%;
+    margin: 0 10rem 10rem;
+    height: 68rem;
+  }
 
 .firstT {
     position: absolute;
@@ -319,4 +328,28 @@
     color: #000000;
     transform: rotate(90deg);
 
+}
+
+@media screen and (max-width: 1366px) {
+    section {
+        margin: 0 9rem 10rem;
+      }
+}
+@media screen and (max-width: 1068px) {
+    section {
+        width: 80%;
+        margin: 0 4.1rem 8rem;
+      }
+}
+
+  @media screen and (max-width: 375px) {
+    section {
+        margin: 2rem 0.8rem 1rem;
+        width: auto;
+        height: 60rem;
+      }
+    .titdesc {
+        display: flex;
+        width: 20px;
+    }
 }
