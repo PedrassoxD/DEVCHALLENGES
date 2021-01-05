@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  width: 100%;
+  max-width: 969px;
+  margin: 0 auto;
+  padding: 3.5em 0;
+}
+
+.perfilPeople {
+    text-align: center;
+}
+
+.perfilPeople .nameandcity {
+    margin-top: -10rem;
+}
+
+.perfilPeople .nameandcity h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(78, 81, 80);
+}
+
+.perfilPeople .nameandcity p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(169, 169, 169);
+}
+
+.picture1 {
+    margin: 0 auto;
+    width: 217px;
+    height: 326px;
+}
+
+.picture1 img {
+    width: 156px;
+    height: 156px;
+    border-radius: 16px;
+}
+
+.statistics {
+    margin: 0 auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics .stats{
+    margin-top: 30px;
+    width: 100px;
+    height: 67px;
+    text-align: center;
+    background: rgb(229, 229, 229);
+    border-radius: 12px;
+}
+
+.statistics .stats .p1 {
+    display: block;
+    line-height: normal;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.statistics .stats .p2 {
+    display: block;
+    line-height: normal;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+
+.sectionimage {
+    width: 72%;
+    margin: 0 auto;
+    padding: 3.5em 0;
+    display: block;
+}
+
+.sectionimage .set1 {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.sectionimage .set2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionimage .set3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionimage .photo1 {
+    width: 350px;
+    height: 578px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo1 img {
+    width: 299px;
+    height: 299px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.sectionimage .photo2 {
+    width: 826.75px;
+    height: 426px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo2 img {
+    width: 629px;
+    height: 299px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.sectionimage .photo3 {
+    width: 627px;
+    height: 540px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo3 img {
+    width: 627px;
+    height: 299px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.sectionimage .photo4 {
+    width: 917px;
+    height: 879px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo4 img {
+    width: 297px;
+    height: 630px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.sectionimage .photo5 {
+    width: 626px;
+    height: 361px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo5 img {
+    width: 299px;
+    height: 299px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.sectionimage .photo6 {
+    width: 350px;
+    height: 527px;
+    border-radius: 12px;
+}
+
+.sectionimage .photo6 img {
+    width: 299px;
+    height: 299px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
